@@ -224,7 +224,7 @@ export default function Home() {
             Stake Tokens and earn Reward.
           </div>
           <div className="">
-            click <a className="text-blue-700">here</a> to get to github link of the deployed SMART CONTRACT</div>
+            click <a className="text-blue-700 " href="https://github.com/nikhilKumar131/Tokenstaking/blob/main/contracts/contract.sol" target="_blank">here</a> to get to github link of the deployed SMART CONTRACT</div>
         </div>
       </div>
       <div className="">
