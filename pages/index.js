@@ -215,7 +215,7 @@ export default function Home() {
             <button className="bg-orange-500 rounded-full " onClick={mint}>< a className=" text-lg mt-10 mx-10" >Mint</a></button>
           </div>
           <div className="flex w-2/5 justify-center items-center">
-            {/* <Youtube videoId="sTnm5jvjgjM" opts={opts} className="relative align-middle" /> */}
+            <Youtube videoId="EUHDhVMsvsk" onReady={(e) => {e.target.pauseVideo()}} opts={opts} className="relative align-middle mt-20" />
           </div>
 
         </div>
